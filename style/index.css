@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "jf-huninn";
+    src: url("../fonts/jf-openhuninn-1.1.woff2");
+}
+
+* {
+    font-family: 'jf-huninn', sans-serif;
+}
+
+.color {
+    width: 99vw;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-container {
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.button {
+    display: flex;
+    width: 150px;
+    height: 48px;
+    background-color: #4bd13f;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 24px;
+    
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+.button:hover {
+    background-color: #71e16d;
+}
+
+.button:active {
+    background-color: #1fad26;
+}
+
+.text-container {
+    margin-top: 30px;
+}
+
+@media (max-width:800px)  {
+
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Estimate the Color</title>
+
+        <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+        <script src="js/index.js"></script>
+        <link rel="stylesheet" href="style/index.css">
+
+        <meta data-n-head="1" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    </head>
+    <body style="margin: 0; padding: 0;">
+        <div class="color-container container">
+            <div class="color" id="q-color"></div>
+            <div class="color" id="a-color"></div>
+        </div>
+        <div class="color-picker-container container">
+            <div id="picker"></div>
+        </div>
+        <div class="buttons-container container">
+            <div class="button" onclick="reset()">重置</div>
+            <div class="button" onclick="check()">檢查</div>
+        </div>
+        <div class="text-container container" id="check_text">
+
+        </div>
+    </body>
+</html>
